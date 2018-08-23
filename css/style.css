@@ -1,0 +1,216 @@
+/*css reset*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #ffffff;
+}
+ul, ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    border: 0;
+}
+
+.wrapper{
+    width: 1226px;
+    margin: 0 auto;
+}
+/*公共样式*/
+/*banner 开始*/
+.banner{
+    height: 120px;
+    background: url("../img/banner2.jpg") no-repeat 50% 50%;
+}
+.banner a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+/*banner 结束*/
+/*nav 开始*/
+.nav{
+    height: 40px;
+    background: #333333;
+}
+.main-menu{
+    overflow: hidden;
+    float: left;
+}
+.nav li{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+}
+.nav a{
+    color: #b0b0b0;
+    font-size: 12px;
+}
+.nav a:hover{
+    color: #ffffff;
+}
+.nav .sep{
+    margin: 0 6px;
+    color: #424242;
+}
+.user-info{
+    float: right;
+}
+.cart{
+    width: 120px;
+    position: relative;
+    text-align: center;
+}
+.cart a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: #424242;
+}
+.cart a:hover{
+    background: #ffffff;
+    color: #ff6700;
+}
+.cart-box{
+    width: 316px;
+    height: 85px;
+    padding-top: 15px;
+    background: #ffffff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+    border: 1px solid #e0e0e0 \9;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    display: none;
+}
+/*nav 结束*/
+/*site-header开始*/
+.site-header{
+    height: 100px;
+    /*line-height: 100px;*/
+    /*position: relative;*/
+}
+.site-header .header-logo{
+    display: block;
+    width: 55px;
+    height: 55px;
+    background-color: #ff6700;
+    float: left;
+    margin-top: 22px;
+    /*position: absolute;
+    top: 50%;
+    margin-top: -27px;*/
+}
+.site-header .header-logo:after{
+    content: '';
+    background: url("../img/mi-logo.png") no-repeat center;
+    width: 55px;
+    height: 55px;
+    display: block;
+}
+.site-header .header-nav{
+    float: left;
+    height: 100%;
+    /*position: absolute;
+    left: 158px;*/
+    margin-left: 158px;
+}
+.site-header .nav-item{
+    float: left;
+    height: 100%;
+    line-height: 100px;
+}
+.site-header .nav-item a{
+    padding: 0 10px;
+    color: #333;
+}
+.site-header .header-sub-nav{
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+    height: 0;
+    transition: height 0.2s ease-out;
+}
+.site-header .header-sub-nav-inner{
+    height: 100px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.site-header .header-sub-nav li{
+    float: left;
+}
+.site-header .nav-item:hover .header-sub-nav{
+    height: 100px;
+}
+.header-search{
+    float: right;
+    width: 295px;
+    height: 50px;
+    border: 1px solid #e0e0e0;
+    margin-top: 25px;
+    position: relative;
+}
+.header-search .search-input{
+    width: 244px;
+    height: 50px;
+    border: 0;
+    outline: none;
+    border-right: 1px solid #e0e0e0;
+    float: left;
+    font-size: 18px;
+    text-indent: 10px;
+}
+.header-search .search-btn{
+    width: 50px;
+    height: 50px;
+    border: 0;
+    background: transparent;
+    float: left;
+    cursor: pointer;
+    transition: background 0.2s ease;
+    font-weight: bold;
+}
+.header-search .search-btn:hover{
+    background: #ff6700;
+    color: #fff;
+}
+.header-search .search-list{
+    width: 244px;
+    border: 1px solid #ff6700;
+    position: absolute;
+    left: -1px;
+    top: 50px;
+    display: none;
+}
+.header-search .search-list li{
+    height: 25px;
+    line-height: 25px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+.header-search .search-list li:hover{
+    background: #e0e0e0;
+}
+.header-search .search-keywords{
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    right: 60px;
+}
+.header-search .search-keywords a{
+    background: #e0e0e0;
+    color: #333;
+    font-size: 12px;
+}
+/*site-header结束*/
+
+
+
