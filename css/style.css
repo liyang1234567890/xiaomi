@@ -212,5 +212,23 @@ img{
 }
 /*site-header结束*/
 
+/* category开始 */
+.category{
+    width: 234px;
+    height: 460px;
+    border: 1px solid red;
+    background-color: rgba(0,0,0,0.6);
+}
+.site-category{
+    margin-top: 20px;
+    padding-left: 30px;
+    height: 42px;
+    color: #fff;
 
+}
+.site-category li{
+    height: 42px;
+    line-height: 42px;
+}
 
+pp
