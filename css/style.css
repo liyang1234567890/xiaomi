@@ -144,6 +144,8 @@ img{
 }
 .site-header .header-sub-nav li{
     float: left;
+    margin-left: 120px;
+    z-index: 10011;
 }
 .site-header .nav-item:hover .header-sub-nav{
     height: 100px;
@@ -218,6 +220,7 @@ img{
     height: 460px;
     border: 1px solid red;
     background-color: rgba(0,0,0,0.6);
+    margin-left: 62px;
 }
 .site-category{
     margin-top: 20px;
@@ -229,11 +232,14 @@ img{
 .site-category li{
     height: 42px;
     line-height: 42px;
+    font-size: 14px;
 }
-
+.site-category li:hover{
+    color:
+}
 .iconfont{
     width: 50px;
     height: 50px;
-    
+
 }
 
