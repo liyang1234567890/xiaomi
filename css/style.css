@@ -144,8 +144,6 @@ img{
 }
 .site-header .header-sub-nav li{
     float: left;
-    margin-left: 120px;
-    z-index: 10011;
 }
 .site-header .nav-item:hover .header-sub-nav{
     height: 100px;
@@ -214,32 +212,34 @@ img{
 }
 /*site-header结束*/
 
-/* category开始 */
+.category-wrap{
+
+}
 .category{
     width: 234px;
-    height: 460px;
-    border: 1px solid red;
-    background-color: rgba(0,0,0,0.6);
-    margin-left: 62px;
-}
-.site-category{
-    margin-top: 20px;
-    padding-left: 30px;
-    height: 42px;
-    color: #fff;
+    height: 440px;
+    background: rgba(0,0,0,0.6);
+    margin-left: 60px;
+    padding-top: 20px;
 
 }
 .site-category li{
+    width: 234px;
     height: 42px;
-    line-height: 42px;
     font-size: 14px;
+    color: white;
+    margin-left: 30px;
+    list-style: none;
+
+    line-height: 42px;
 }
 .site-category li:hover{
-    color:
+    background: #ff6700;
+    width: 204px;
 }
 .iconfont{
-    width: 50px;
-    height: 50px;
-
+    margin-left: 100px;
 }
-
+.it{
+    margin-left: 87px;
+}
